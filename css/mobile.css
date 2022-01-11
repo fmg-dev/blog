@@ -1,0 +1,27 @@
+/* mobilde geçerli olan özellikler bu css dosyasında tutulur. */
+#navbar {
+    /* alt alta gelmesini sağlıyor. */
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 0.75rem;
+    /* taşmayı engeller. */
+    overflow: hidden;
+    height: 130px;
+}
+
+/* writing */
+#writing .items{
+    flex-direction: column;
+}
+
+#writing .items .item {
+    width: 100%;
+}
+/* courses */
+.courses .course {
+    flex-direction: column;
+}
+
+#mobile-center {
+    text-align: center;
+}
